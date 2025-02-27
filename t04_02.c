@@ -5,16 +5,16 @@
 #include <string.h>
 
 int main(int _argv, char **_argc) {
-  char input[21]; 
-    
-    scanf("%20[^\n]", input);
-    
-    int len = strlen(input);
+  char str[21]; 
+    scanf("%20[^\n]", str); 
+
+    int len = strlen(str);
+
     for (int i = 0; i < len; i++) {
-        printf("%03d", (int)input[i]);
+        printf("%03d", str[i]);  
     }
-    
-    printf("\n");
+
+    printf("013"); 
   
 
   return 0;
