@@ -5,13 +5,13 @@
 #include <string.h>
 
 int main(int _argv, char **_argc) {
-  char str[21]; 
-    scanf("%20[^\n]", str); 
+  char string [21]; 
+    scanf("%20[^\n]", string ); 
 
-    int len = strlen(str);
+    int len = strlen(string);
 
     for (int i = 0; i < len; i++) {
-        printf("%03d", str[i]);  
+        printf("%03d", string[i]);  
     }
 
     printf("013"); 
