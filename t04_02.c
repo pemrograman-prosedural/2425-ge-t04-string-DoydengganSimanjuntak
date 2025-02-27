@@ -1,5 +1,5 @@
-12S24033 - Doy Denggan P.S.
-12S24028 - Rotua Immanuela Tampubolon
+// 12S24033 - Doy Denggan P.S.
+// 12S24028 - Rotua Immanuela Tampubolon
 
 #include <stdio.h>
 #include <string.h>
